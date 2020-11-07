@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Login Functionality #2
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.171 s - in Login Functionality #2

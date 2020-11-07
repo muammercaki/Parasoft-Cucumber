@@ -1,0 +1,482 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-07T23:07:25.821Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4270992000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 198308000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4689575000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "steps.Steps.iAmInTheLoginPageOfTheParaBankApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1508639000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "steps.Steps.iEnterValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1487728000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "steps.Steps.iShouldBeTakenToTheOverviewPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-07T23:07:38.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1549481000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 118131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3017760000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in the login page",
+            "match": {
+              "location": "steps.Steps.iAmInTheLoginPageOfTheParaBankApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1647919000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter valid \"tautester1\" and \"password1\" with \"test test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautester1\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password1\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"test test\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.Steps.iEnterValidUsernameAndPasswordWithUserFullName(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1590422000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be taken to the Overview page1",
+            "match": {
+              "location": "steps.Steps.iShouldBeTakenToTheOverviewPage1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-07T23:07:45.992Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1635503000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Successful 3",
+        "description": "",
+        "id": "login-functionality;login-successful-3",
+        "after": [
+          {
+            "result": {
+              "duration": 109697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2903317000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "steps.Steps.iAmInTheLoginPageOfTheParaBankApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1438545000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter valid credentials1",
+            "match": {
+              "location": "steps.Steps.iEnterValidCredentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tautester1",
+                  "password1"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1207028000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "steps.Steps.iShouldBeTakenToTheOverviewPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "  In order to do internet banking\n  As a valid Para Bank customer\n  I want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-07T23:07:25.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4251730000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 92496000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4303302000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "steps.Steps.iAmInTheLoginPageOfTheParaBankApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1509070000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "steps.Steps.iEnterValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1436598000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "steps.Steps.iShouldBeTakenToTheOverviewPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-07T23:07:37.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1962544000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 169670000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3473687000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in the login page",
+            "match": {
+              "location": "steps.Steps.iAmInTheLoginPageOfTheParaBankApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1903720000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter valid \"tautester1\" and \"password1\" with \"test test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautester1\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password1\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"test test\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.Steps.iEnterValidUsernameAndPasswordWithUserFullName(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1422138000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be taken to the Overview page1",
+            "match": {
+              "location": "steps.Steps.iShouldBeTakenToTheOverviewPage1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-07T23:07:46.462Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1589471000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Successful 3",
+        "description": "",
+        "id": "login-functionality;login-successful-3",
+        "after": [
+          {
+            "result": {
+              "duration": 116929000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2710715000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "steps.Steps.iAmInTheLoginPageOfTheParaBankApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1465055000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter valid credentials1",
+            "match": {
+              "location": "steps.Steps.iEnterValidCredentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tautester1",
+                  "password1"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1371930000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "steps.Steps.iShouldBeTakenToTheOverviewPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "  In order to do internet banking\n  As a valid Para Bank customer\n  I want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Login2.feature",
+    "tags": []
+  }
+]
